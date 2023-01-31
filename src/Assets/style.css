@@ -1,0 +1,83 @@
+.Questions{
+    text-align: left;
+    margin: 0% 0% 0% 5%;
+  }
+  h1{
+    color:purple;
+  }
+  .answer{
+    display: contents;
+    color:red;
+  }
+  .intro{
+    font-size: 20px;
+    margin:4px 0px 0px 0px;
+  }
+  #vinay{
+    color:blue;
+  }
+  #amit{
+    color:magenta;
+  }
+  .link{
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 4;
+      background-color:violet;
+      margin-left: 10px;
+      padding: 10px;
+
+  }
+  #navbarScrollingDropdown{
+      color: white;
+  }
+  .homelink nav-link a{
+      color:white !important;
+  }
+  .me-auto my-2 my-lg-0 navbar-nav navbar-nav-scroll a{
+      color: white;
+  }
+  .headings{
+    text-align: center !important;
+    margin:2% 2%;
+  }
+.background{
+    height: 655px;
+    background: rgb(0,36,4);
+    background: linear-gradient(90deg, rgba(0,36,4,1) 0%, rgba(13,101,90,1) 0%, rgba(121,9,102,0.9164040616246498) 0%, rgba(237,4,220,1) 0%, rgba(66,48,230,0.92) 39%, rgba(0,224,255,1) 73%);
+  }
+  .userdata{
+    padding-top: 15%;
+  }
+.userdata table{
+    margin: auto;
+    border-radius: 16px;
+    background-color: white;
+    height: 250px;
+    width: 28%;
+  }
+.userdata table tr {
+    text-align: center;
+}
+.userdata table tr td input{
+    border-radius: 5px;
+}
+.userdata table tr td button{
+    border: none;
+    background-color: lawngreen;
+    padding: 7px 20px;
+    /* text-align: center; */
+    /* margin: auto; */
+    margin-left: 120%;
+    border-radius: 20px;
+}
+.avtar_img{
+    margin-left: 110%;
+    text-align: center;
+    height: 80px;
+    width: 90px;
+}
+.react-slideshow-fadezoom-wrapper .react-slideshow-fadezoom-images-wrap {
+    height:600px !important;
+}
