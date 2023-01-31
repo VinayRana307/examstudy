@@ -6,8 +6,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from '../../../App'
+import { useState } from 'react';
 function NavScrollExample() {
-    let value = true;
+    const [value, setValue] = useState(true);
   return (
     <Navbar bg="primary" expand="lg">
       <Container fluid>
@@ -35,8 +36,8 @@ function NavScrollExample() {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" disabled>
-              {value?'logout':''} 
+            <Nav.Link href="#" onClick={() => setValue(false)} className="homelink">
+              {value?'logout': window.location.reload()} 
             </Nav.Link>
           </Nav>
           <Form className="d-flex">

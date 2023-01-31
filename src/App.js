@@ -18,6 +18,7 @@ handlesumbit = (e) =>{
   
   if(username == 'amit' && password == '1234'){
       alert('success')
+      
       this.setState({value:false})
   }
   else{
