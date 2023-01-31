@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/examstudy/static/css/main.2400d89f.css",
+    "main.js": "/examstudy/static/js/main.234e5502.js",
+    "static/js/787.1ae0027d.chunk.js": "/examstudy/static/js/787.1ae0027d.chunk.js",
+    "static/media/profileAvatar.png": "/examstudy/static/media/profileAvatar.e140540ca0b3fad9de64.png",
+    "index.html": "/examstudy/index.html",
+    "main.2400d89f.css.map": "/examstudy/static/css/main.2400d89f.css.map",
+    "main.234e5502.js.map": "/examstudy/static/js/main.234e5502.js.map",
+    "787.1ae0027d.chunk.js.map": "/examstudy/static/js/787.1ae0027d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2400d89f.css",
+    "static/js/main.234e5502.js"
+  ]
+}
