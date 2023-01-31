@@ -12,7 +12,7 @@ class WordQuiz extends Component{
     render(){
         return(
             <div className="App">
-             <span className="link" ><a href="/#/home">Home</a></span>
+             <span className="link" ><a href="/examstudy/#/home">Home</a></span>
             <h1 className="headings"><u><i><b>Computer MS Word MCQ Questions</b></i></u></h1>
             {msword_quiz.map((data,id) =>{
               return (

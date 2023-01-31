@@ -23,7 +23,7 @@ function NavScrollExample() {
             <Nav.Link href="#action1">signup</Nav.Link>
             <Nav.Link href="#action2">login</Nav.Link>
             <NavDropdown title="MCQ" id="navbarScrollingDropdown" className="homelink">
-              <NavDropdown.Item href="/#/msword" className="link">MS Word</NavDropdown.Item>
+              <NavDropdown.Item href="/examstudy/#/msword" className="link">MS Word</NavDropdown.Item>
               <NavDropdown.Item href="/#/msword" className="link">MS Excel</NavDropdown.Item>
               <NavDropdown.Item href="/#/msword" className="link">MS Powerpoint</NavDropdown.Item>
               <NavDropdown.Item href="/#/msword" className="link">MS Access</NavDropdown.Item>
