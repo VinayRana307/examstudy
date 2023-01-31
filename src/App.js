@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Router from './Routers/Router'
+import HomePage from './Components/Home_Page/HomePage'
 import profileAvatar from './Assets/utils/images/profileAvatar.png'
 
 class App extends Component{

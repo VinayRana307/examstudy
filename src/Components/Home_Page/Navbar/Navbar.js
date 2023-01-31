@@ -7,6 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from '../../../App'
 function NavScrollExample() {
+    let value = true;
   return (
     <Navbar bg="primary" expand="lg">
       <Container fluid>
@@ -35,7 +36,7 @@ function NavScrollExample() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#" disabled>
-              logout 
+              {value?'logout':''} 
             </Nav.Link>
           </Nav>
           <Form className="d-flex">

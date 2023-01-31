@@ -7,10 +7,9 @@ export default function Router() {
   return (
     <HashRouter>
       <Routes>
-            <Route path="/" element={<App />} >
+            <Route path="/" element={<HomePage />} />
             <Route path="/home" element={<HomePage />} />
             <Route path="/msword" element={<WordQuiz />} />
-            </Route>
       </Routes>
       </HashRouter>
   );
