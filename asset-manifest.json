@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/examstudy/static/css/main.2d1124a5.css",
-    "main.js": "/examstudy/static/js/main.a65be90c.js",
+    "main.css": "/examstudy/static/css/main.00ac57c4.css",
+    "main.js": "/examstudy/static/js/main.b194093b.js",
     "static/js/787.1ae0027d.chunk.js": "/examstudy/static/js/787.1ae0027d.chunk.js",
     "static/media/profileAvatar.png": "/examstudy/static/media/profileAvatar.e140540ca0b3fad9de64.png",
     "index.html": "/examstudy/index.html",
-    "main.2d1124a5.css.map": "/examstudy/static/css/main.2d1124a5.css.map",
-    "main.a65be90c.js.map": "/examstudy/static/js/main.a65be90c.js.map",
+    "main.00ac57c4.css.map": "/examstudy/static/css/main.00ac57c4.css.map",
+    "main.b194093b.js.map": "/examstudy/static/js/main.b194093b.js.map",
     "787.1ae0027d.chunk.js.map": "/examstudy/static/js/787.1ae0027d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d1124a5.css",
-    "static/js/main.a65be90c.js"
+    "static/css/main.00ac57c4.css",
+    "static/js/main.b194093b.js"
   ]
 }
