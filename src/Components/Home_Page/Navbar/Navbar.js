@@ -5,14 +5,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import App from '../../../App'
 import { useState } from 'react';
+
 function NavScrollExample() {
     const [value, setValue] = useState(true);
   return (
     <Navbar bg="primary" expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">Computer Study</Navbar.Brand>
+        <Navbar.Brand href="#" style={{color:'white'}}>Exam Study</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -20,9 +20,34 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="/examstudy/#/translate">Translate</Nav.Link>
-            <Nav.Link href="/examstudy/#/translate">login</Nav.Link>
-            <NavDropdown title="MCQ" id="navbarScrollingDropdown" className="homelink">
+            <Nav.Link href="/examstudy/#/translate" style={{color:'white'}}>Translate</Nav.Link>
+
+            {/* भारत के प्रशन */}
+
+            <NavDropdown title="India" id="navbarScrollingDropdown" className="homelink">
+              <NavDropdown.Item href="/examstudy/#/india_gk" className="link">भारत का इतिहास</NavDropdown.Item>
+              <NavDropdown.Item href="/examstudy/#/msword" className="link">भारत का भूगोल</NavDropdown.Item>
+              <NavDropdown.Item href="/examstudy/#/india_gknotes" className="link">भारत की राजनीतिक अर्थव्यवस्था</NavDropdown.Item>
+              <NavDropdown.Item href="/#/msword" className="link">भारतीय संविधान</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <Nav.Link href="/examstudy/#/india_gknotes" style={{fontSize:'14px'}}>
+                अन्य महत्वपूरण तथ्य
+                </Nav.Link>
+            </NavDropdown>
+
+            {/* हिमाचल के प्रशन */}
+
+            <NavDropdown title="Himachal" id="navbarScrollingDropdown" className="homelink">
+                <NavDropdown.Item href="/examstudy/#/himachal_gk" className="link">हिमाचल प्रदेश</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <Nav.Link href="#" style={{fontSize:'14px'}}>
+                अन्य महत्वपूरण तथ्य
+                </Nav.Link>
+            </NavDropdown>
+
+            {/* कंप्युटर के प्रशन */}
+
+            <NavDropdown title="Computer" id="navbarScrollingDropdown" className="homelink">
               <NavDropdown.Item href="/examstudy/#/msword" className="link">MS Word</NavDropdown.Item>
               <NavDropdown.Item href="/examstudy/#/msword" className="link">MS Excel</NavDropdown.Item>
               <NavDropdown.Item href="/#/msword" className="link">MS Powerpoint</NavDropdown.Item>
@@ -31,12 +56,12 @@ function NavScrollExample() {
               <NavDropdown.Item href="/#/msword" className="link">DataBase</NavDropdown.Item>
               <NavDropdown.Item href="/#/msword" className="link">Computer Fundamental</NavDropdown.Item>
               <NavDropdown.Item href="/#/msword" className="link">MS Access</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Translate
-              </NavDropdown.Item>
+            <NavDropdown.Divider />
             </NavDropdown>
-            <Nav.Link href="#" onClick={() => setValue(false)} className="homelink">
+            
+
+            
+            <Nav.Link href="#" onClick={() => setValue(false)} className="homelink" style={{color:'white'}}>
               {value?'logout': window.location.reload()} 
             </Nav.Link>
           </Nav>
@@ -47,7 +72,7 @@ function NavScrollExample() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-success" style={{backgroundColor:'lightgreen'}}>Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>
