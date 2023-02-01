@@ -2,14 +2,20 @@ import '../../Assets/style.css';
 import msword_quiz from '../../Questions/MS_Word/Word_Questions'
 import React from 'react';
 import { Component } from 'react';
+import axios from "axios";
+
 class WordQuiz extends Component{
   constructor(){
     super();
     this.state={
-
+      fromLanguage : [],
+      toValue:'en',
+      fromValue:'en',
     }
   }
     render(){
+      let { fromLanguage } = this.state;
+      console.log(fromLanguage)
         return(
             <div className="App">
              <span className="link" ><a href="/examstudy/#/home">Home</a></span>

@@ -81,3 +81,49 @@
 .react-slideshow-fadezoom-wrapper .react-slideshow-fadezoom-images-wrap {
     height:600px !important;
 }
+
+.translatelanguage{
+  display: flex;
+  text-align: center;
+  margin: 0% 35%;
+}
+.translatelanguage tr{
+  margin:0% 1%;
+}
+.InputValue textarea{
+  text-align: center;
+  width: 60%;
+  margin: 1% 0%;
+}
+.outputValue textarea{
+  text-align: center;
+  width: 60%;
+  margin: 1% 0%;
+}
+.translate_button{
+  text-align: center;
+}
+.translate_button button{
+  background-color: aqua;
+    border: none;
+    padding: 5px 30px;
+    color: blue;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer_translate{
+  background-color:cyan;
+  color:black;
+  width:100%;
+  padding:10px 0px ;
+  text-align: end;
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+}
+.footer_translate p{
+  text-align: center;
+  margin-left: 30px;
+}

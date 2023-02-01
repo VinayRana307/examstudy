@@ -20,8 +20,8 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">signup</Nav.Link>
-            <Nav.Link href="#action2">login</Nav.Link>
+            <Nav.Link href="/examstudy/#/translate">Translate</Nav.Link>
+            <Nav.Link href="/examstudy/#/translate">login</Nav.Link>
             <NavDropdown title="MCQ" id="navbarScrollingDropdown" className="homelink">
               <NavDropdown.Item href="/examstudy/#/msword" className="link">MS Word</NavDropdown.Item>
               <NavDropdown.Item href="/examstudy/#/msword" className="link">MS Excel</NavDropdown.Item>
@@ -33,7 +33,7 @@ function NavScrollExample() {
               <NavDropdown.Item href="/#/msword" className="link">MS Access</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action5">
-                Something else here
+                Translate
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#" onClick={() => setValue(false)} className="homelink">
