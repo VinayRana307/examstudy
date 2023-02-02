@@ -6,12 +6,22 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
+import app_icon  from '../../../Assets/utils/images/app_icon.png'
 
 function NavScrollExample() {
     const [value, setValue] = useState(true);
   return (
     <Navbar bg="primary" expand="lg">
       <Container fluid>
+      <Navbar.Brand href="#home">
+            <img
+              alt=""
+              src={app_icon}
+              width="40"
+              height="40"
+              className="d-inline-block align-top"
+            />{' '}
+          </Navbar.Brand>
         <Navbar.Brand href="#" style={{color:'white'}}>Exam Study</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

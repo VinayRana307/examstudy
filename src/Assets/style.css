@@ -20,14 +20,18 @@
     color:magenta;
   }
   .link{
-      cursor: pointer;
-      text-decoration: none;
+      
       font-size: 14px;
       font-weight: 4;
-      background-color:violet;
+      background-color:black;
       margin-left: 10px;
       padding: 10px;
 
+  }
+  .link a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
   }
   #navbarScrollingDropdown{
       color: white;
@@ -136,3 +140,25 @@
   font-size: 18px;
   font-weight: 600;
 }
+@media only screen and (max-width: 600px) {
+  .slide-container button{
+    display: none !important;
+  }
+}
+.slide-container{
+  width:100%;
+  background-size: cover !important;
+  height:30%;
+}
+/*
+.firstgrid{
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+}
+.secondgrid{
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+}
+*/

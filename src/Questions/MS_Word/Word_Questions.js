@@ -1,212 +1,480 @@
 const msword_quiz =  [
     {
-      "question": "1.     How many different positions can you set for drop cap ?",
+      "question": "How many different positions can you set for drop cap ?",
+      "hindiquestion" : "ड्रॉप कैप के लिए आप कितने अलग-अलग पद सेट कर सकते हैं",
+
       "option1" : "a)   1",
+      "hindi1"  : "",
+
       "option2" : "b)   2",
+      "hindi2"  : "",
+
       "option3" : "c)   4",
+      "hindi3"  : "",
+
       "option4" : "d)   6",
-      "answer"  : "b)   2"
+      "hindi4"  : "",
+
+      "answer"  : "b)   2",
+      "hindiAns"  : "",
     },
     {
-      "question": "2.     How many ways you can save a document ?",
+      "question": "How many ways you can save a document ?",
+      "hindiquestion" : "आप किसी दस्तावेज़ को कितने तरीकों से सहेज सकते हैं",
+
       "option1" : "a)   3",
+      "hindi1"  : "",
+
       "option2" : "b)   4",
+      "hindi2"  : "",
+
       "option3" : "c)   5",
+      "hindi3"  : "",
+
       "option4" : "d)   6",
-      "answer"  : "a)   3"
+      "hindi4"  : "",
+
+      "answer"  : "a)   3",
+      "hindiAns"  : "",
     },
     {
-      "question": "3.     Single spacing in MS Word document causes - point line spacing ?",
+      "question": "Single spacing in MS Word document causes - point line spacing ?",
+      "hindiquestion" : "एमएस वर्ड दस्तावेज़ में एकल रिक्ति बिंदु रेखा रिक्ति का कारण बनती है",
+
       "option1" : "a)   10",
+      "hindi1"  : "",
+
       "option2" : "b)   12",
+      "hindi2"  : "",
+
       "option3" : "c)   14",
+      "hindi3"  : "",
+
       "option4" : "d)   16",
-      "answer"  : "b)   12"
+      "hindi4"  : "",
+
+      "answer"  : "b)   12",
+      "hindiAns"  : "",
     },
     {
-      "question": "4.     What is the default number of lines to drop for drop cap ?",
+      "question": "What is the default number of lines to drop for drop cap ?",
+      "hindiquestion" : "ड्रॉप कैप के लिए ड्रॉप करने वाली लाइनों की डिफ़ॉल्ट संख्या क्या है?",
+
       "option1" : "a)   3",
+      "hindi1"  : "",
+
       "option2" : "b)   10",
+      "hindi2"  : "",
+
       "option3" : "c)   15",
+      "hindi3"  : "",
+
       "option4" : "d)   20",
-      "answer"  : "a)   3"
+      "hindi4"  : "",
+
+      "answer"  : "a)   3",
+      "hindiAns"  : "",
     },
     {
-      "question": "5.     What is the maximum number of lines you can set for a drop cap ?",
+      "question": "What is the maximum number of lines you can set for a drop cap ?",
+      "hindiquestion" : "ड्रॉप कैप के लिए आप अधिकतम कितनी लाइनें सेट कर सकते हैं ?",
+
       "option1" : "a)   3",
+      "hindi1"  : "",
+
       "option2" : "b)   10",
+      "hindi2"  : "",
+
       "option3" : "c)   15",
+      "hindi3"  : "",
+
       "option4" : "d)   20",
-      "answer"  : "b)   10"
+      "hindi4"  : "",
+
+      "answer"  : "b)   10",
+      "hindiAns"  : "",
     },
     {
-      "question": "6.     How many column can you insert in a word document in maximum ?",
+      "question": "How many column can you insert in a word document in maximum ?",
+      "hindiquestion" : "आप किसी शब्द दस्तावेज़ में अधिकतम कितने स्तंभ सम्मिलित कर सकते हैं ?",
+
       "option1" : "a)   35",
+      "hindi1"  : "",
+
       "option2" : "b)   45",
+      "hindi2"  : "",
+
       "option3" : "c)   55",
+      "hindi3"  : "",
+
       "option4" : "d)   65",
-      "answer"  : "b)   45"
+      "hindi4"  : "",
+
+      "answer"  : "b)   45",
+      "hindiAns"  : "",
     },
     {
-      "question": "7.     In a document, What is the maximum number of columns that can be inserted in MS-Word Table ?",
+      "question": "In a document, What is the maximum number of columns that can be inserted in MS-Word Table ?",
+      "hindiquestion" : "किसी दस्तावेज़ में, MS-Word तालिका में सम्मिलित किए जा सकने वाले स्तंभों की अधिकतम संख्या क्या है ?",
+
       "option1" : "a)   35",
+      "hindi1"  : "",
+
       "option2" : "b)   15",
+      "hindi2"  : "",
+
       "option3" : "c)   63",
+      "hindi3"  : "",
+
       "option4" : "d)   65",
-      "answer"  : "c)   63"
+      "hindi4"  : "",
+
+      "answer"  : "c)   63",
+      "hindiAns"  : "",
     },
     {
-      "question": "8.     What is the maximum scale percentage available in scale drop down box ?",
+      "question": "What is the maximum scale percentage available in scale drop down box ?",
+      "hindiquestion" : "स्केल ड्रॉप डाउन बॉक्स में उपलब्ध अधिकतम स्केल प्रतिशत क्या है ?",
+
       "option1" : "a)   500",
+      "hindi1"  : "",
+
       "option2" : "b)   200",
+      "hindi2"  : "",
+
       "option3" : "c)   100",
+      "hindi3"  : "",
+
       "option4" : "d)   90",
-      "answer"  : "b)   200"
+      "hindi4"  : "",
+
+      "answer"  : "b)   200",
+      "hindiAns"  : "",
     },
     {
-      "question": "9.     What is the maximum font size you can apply for any character ?",
+      "question": "What is the maximum font size you can apply for any character ?",
+      "hindiquestion" : "अधिकतम फ़ॉन्ट आकार क्या है जिसे आप किसी भी वर्ण के लिए लागू कर सकते हैं ?",
+
       "option1" : "a)   163",
+      "hindi1"  : "",
+
       "option2" : "b)   1638",
+      "hindi2"  : "",
+
       "option3" : "c)   16038",
-      "option4" : "d)   None of these",
-      "answer"  : "b)   1638"
+      "hindi3"  : "",
+
+      "option4" : "d)   16",
+      "hindi4"  : "",
+
+      "answer"  : "b)   1638",
+      "hindiAns"  : "",
     },
     {
-      "question": "10.     Word by default, places a tab step at every_mark on the ruler ?",
-      "option1" : 'a)   2.5"',
-      "option2" : 'b)   .5"',
-      "option3" : 'c)   .75"',
-      "option4" : 'd)   .1"',
-      "answer"  : 'b)   .5"'
+      "question": "Word by default, places a tab step at every_mark on the ruler ?",
+      "hindiquestion" : "डिफ़ॉल्ट रूप से शब्द, शासक पर प्रत्येक चिह्न पर एक टैब चरण रखता है ?",
+
+      'option1' : 'a)   2.5"',
+      'hindi1'  : '',
+
+      'option2' : 'b)   .5"',
+      'hindi2'  : '',
+
+      'option3' : 'c)   .75"',
+      'hindi3'  : '',
+
+      'option4' : 'd)   .1"',
+      'hindi4'  : '',
+
+      'answer'  : 'b)   .5"',
+      'hindiAns'  : '',
     },
     {
-      "question": "11.     What is the default file extension for all word documents ?",
+      "question": "What is the default file extension for all word documents ?",
+      "hindiquestion" : "सभी शब्द दस्तावेज़ों के लिए डिफ़ॉल्ट फ़ाइल एक्सटेंशन क्या है ?",
+
       "option1" : "a)   txt",
+      "hindi1"  : "",
+
       "option2" : "b)   word",
+      "hindi2"  : "",
+
       "option3" : "c)   docs",
+      "hindi3"  : "",
+
       "option4" : "d)   docx",
-      "answer"  : "d)   docx"
+      "hindi4"  : "",
+
+      "answer"  : "d)   docx",
+      "hindiAns"  : "",
     },
     {
-      "question": "12.     The file type_indicates the file is a word document ?",
+      "question": "The file type_indicates the file is a word document ?",
+      "hindiquestion" : "फ़ाइल प्रकार इंगित करता है कि फ़ाइल एक शब्द दस्तावेज़ है ?",
+
       "option1" : "a)   .msw",
+      "hindi1"  : "",
+
       "option2" : "b)   .wor",
+      "hindi2"  : "",
+
       "option3" : "c)   .wrd",
+      "hindi3"  : "",
+
       "option4" : "d)   .doc",
-      "answer"  : "d)   .doc"
+      "hindi4"  : "",
+
+      "answer"  : "d)   .doc",
+      "hindiAns"  : "",
     },
     {
-      "question": "13.     How much space in minimum must be provided between columns ?",
-      "option1" : 'a)   0"',
-      "option2" : 'b)   0.5"',
-      "option3" : 'c)   1"',
-      "option4" : 'd)   1.5"',
-      "answer"  : 'a)   0"'
+      "question": "How much space in minimum must be provided between columns ?",
+      "hindiquestion" : "कॉलम के बीच न्यूनतम कितना स्थान प्रदान किया जाना चाहिए ?",
+
+      'option1' : 'a)   0"',
+      'hindi1'  : '',
+
+      'option2' : 'b)   0.5"',
+      'hindi2'  : '',
+
+      'option3' : 'c)   .1"',
+      'hindi3'  : '',
+
+      'option4' : 'd)   .1.5"',
+      'hindi4'  : '',
+
+      'answer'  : 'a)   0"',
+      'hindiAns'  : '',
     },
     {
-      "question": "14.     What is the smallest width of column ?",
-      "option1" : 'a)   0"',
-      "option2" : 'b)   0.5"',
-      "option3" : 'c)   1"',
-      "option4" : 'd)   1.5"',
-      "answer"  : 'd)   1.5"'
+      "question": "What is the smallest width of column ?",
+      "hindiquestion" : "स्तंभ की सबसे छोटी चौड़ाई क्या है ?",
+
+      'option1' : 'a)   0"',
+      'hindi1'  : '',
+
+      'option2' : 'b)   0.5"',
+      'hindi2'  : '',
+
+      'option3' : 'c)   1"',
+      'hindi3'  : '',
+
+      'option4' : 'd)   .1.5"',
+      'hindi4'  : '',
+
+      'answer'  : 'd)   1.5"',
+      'hindiAns'  : '',
     },
     {
-      "question": "15.     By default, your document print with ?",
+      "question": "By default, your document print with ?",
+      "hindiquestion" : "डिफ़ॉल्ट रूप से, आपका दस्तावेज़ प्रिंट किसके साथ मुद्रित होता है ?",
+
       "option1" : "a)   1 inch top and bottom margins",
+      "hindi1"  : "1 इंच ऊपर और नीचे मार्जिन",
+
       "option2" : "b)   A portrait orientation",
+      "hindi2"  : "एक चित्र अभिविन्यास",
+
       "option3" : "c)   1.25 inches left and right margins",
+      "hindi3"  : "1.25 इंच बाएं और दाएं मार्जिन",
+
       "option4" : "d)   All of the above",
-      "answer"  : "b)   A portrait orientation"
+      "hindi4"  : "उपरोक्त सभी",
+
+      "answer"  : "b)   A portrait orientation",
+      "hindiAns"  : "एक चित्र अभिविन्यास",
     },
     {
-      "question": "16.     Word is present to use standard 8.5 by 11 inch paper with_margins ?",
+      "question": "Word is present to use standard 8.5 by 11 inch paper with margins ?",
+      "hindiquestion" : "वर्ड मार्जिन के साथ मानक 8.5 बाय 11 इंच पेपर का उपयोग करने के लिए मौजूद है ?",
+
       "option1" : "a)   1 inch left, right, top and bottom",
+      "hindi1"  : "1 इंच बाएं , दाएं , ऊपर और नीचे",
+
       "option2" : "b)   1.25 inch left, right top and bottom",
+      "hindi2"  : "1.25 इंच बाएं , दाएं ऊपर और नीचे",
+
       "option3" : "c)   1.25 inch left and right margins and depend button",
+      "hindi3"  : "1.25 इंच बाएं और दाएं मार्जिन और निर्भर बटन",
+
       "option4" : "d)   1 inch left and right margins and 1.25 inch top and bottom",
-      "answer"  : "c)   1.25 inch left and right margins and depend button"
+      "hindi4"  : "1 इंच बाएं और दाएं मार्जिन और 1.25 इंच ऊपर और नीचे",
+
+      "answer"  : "b)   1.25 inch left, right top and bottom",
+      "hindiAns"  : "1.25 इंच बाएं , दाएं ऊपर और नीचे",
     },
     {
-      "question": "17.     What is the default left margin in word 2003 document ?",
-      "option1" : 'a)   1"',
-      "option2" : 'b)   1.25"',
-      "option3" : 'c)   1.5"',
-      "option4" : 'd)   2"',
-      "answer"  : 'b)   1.25"(31.7mm)'
+      "question": "What is the default left margin in ms word 2003 document ?",
+      "hindiquestion" : "MS Word 2003 दस्तावेज़ में डिफ़ॉल्ट बाएँ मार्जिन क्या है? ?",
+
+      'option1' : 'a)   1"',
+      'hindi1'  : '',
+
+      'option2' : 'b)   1.25"',
+      'hindi2'  : '',
+
+      'option3' : 'c)   1.5"',
+      'hindi3'  : '',
+
+      'option4' : 'd)   2"',
+      'hindi4'  : '',
+
+      'answer'  : 'b)   1.25"',
+      'hindiAns'  : '',
     },
     {
-      "question": "18.     What is the smallest and largest font size available in font size tool on formatting toolbar ?",
+      "question": "What is the smallest and largest font size available in font size tool on formatting toolbar ?",
+      "hindiquestion" : "स्वरूपण उपकरण पट्टी पर फ़ॉन्ट आकार उपकरण में उपलब्ध सबसे छोटा और सबसे बड़ा फ़ॉन्ट आकार क्या है ?",
+
       "option1" : "a)   8 and 72",
+      "hindi1"  : "8 और 72",
+
       "option2" : "b)   8 and 64",
+      "hindi2"  : "8 और 64",
+
       "option3" : "c)   12 and 72",
+      "hindi3"  : "12 और 72",
+
       "option4" : "d)   None of above",
-      "answer"  : "a)   8 and 72"
+      "hindi4"  : "उपरोक्त में से कोई नहीं",
+
+      "answer"  : "b)   8 and 72",
+      "hindiAns"  : "8 और 72",
     },
     {
-      "question": "19.     What is the default font size of a new word document based on normal template in word 2003 ?",
+      "question": "What is the default font size of a new word document based on normal template in MS word 2003 ?",
+      "hindiquestion" : "MS Word 2003 में सामान्य टेम्पलेट के आधार पर किसी नए शब्द दस्तावेज़ का डिफ़ॉल्ट फ़ॉन्ट आकार क्या है ?",
+
       "option1" : "a)   10pt",
+      "hindi1"  : "",
+
       "option2" : "b)   12pt",
+      "hindi2"  : "",
+
       "option3" : "c)   14pt",
-      "option4" : "d)   None of above",
-      "answer"  : "b)   12pt"
+      "hindi3"  : "",
+
+      "option4" : "d)   16pt",
+      "hindi4"  : "",
+
+      "answer"  : "b)   12pt",
+      "hindiAns"  : "",
     },
     {
-      "question": "20.     The minimum number of rows and columns in MS-Word document is ?",
+      "question": "The minimum number of rows and columns in MS-Word document is ?",
+      "hindiquestion" : "MS-Word दस्तावेज़ में पंक्तियों और स्तंभों की न्यूनतम संख्या क्या है ?",
+
       "option1" : "a)   1 and 1",
+      "hindi1"  : "1 और 1",
+
       "option2" : "b)   2 and 1",
+      "hindi2"  : "2 और 1",
+
       "option3" : "c)   2 and 2",
+      "hindi3"  : "2 और 2",
+
       "option4" : "d)   None of above",
-      "answer"  : "a)   1 and 1"
+      "hindi4"  : "उपरोक्त में से कोई नहीं",
+
+      "answer"  : "a)   1 and 1",
+      "hindiAns"  : "1 और 1",
     },
     {
-      "question": "21.     In mail merge operation which of the following might represent the main document ?",
-      "option1" : "a)   A scale brochure",
-      "option2" : "b)   A form letter",
-      "option3" : "c)   A database of Names and Addresses",
-      "option4" : "d)   None of above",
-      "answer"  : "a)   A scale brochure"
-    },
-    {
-      "question": "22.     Pressing F8 key for three times select ?",
+      "question": "Pressing F8 key for three times select ?",
+      "hindiquestion" : "F8 कुंजी को तीन बार दबाने का चयन करें ?",
+
       "option1" : "a)   A word",
-      "option2" : "b)   A sentense",
+      "hindi1"  : "एक शब्द",
+
+      "option2" : "b)   A sentence",
+      "hindi2"  : "एक वाक्य",
+
       "option3" : "c)   A paragraph",
+      "hindi3"  : "एक अनुच्छेद",
+
       "option4" : "d)   entire document",
-      "answer"  : "b)   A sentense"
+      "hindi4"  : "पूरा दस्तावेज़",
+
+      "answer"  : "b)   A sentence",
+      "hindiAns"  : "एक वाक्य",
     },
     {
-      "question": "22.     What do you call a collection of character and paragraph formatting commands ?",
+      "question": "What do you call a collection of character and paragraph formatting commands ?",
+      "hindiquestion" : "आप वर्ण और अनुच्छेद स्वरूपण आदेशों का संग्रह क्या कहते हैं ?",
+
       "option1" : "a)   A style",
+      "hindi1"  : "एक शैली",
+
       "option2" : "b)   A template",
-      "option3" : "c)   A style",
-      "option4" : "d)   A boilerplate",
-      "answer"  : "a)   A style"
+      "hindi2"  : "एक टेम्पलेट",
+
+      "option3" : "c)   A boilerplate",
+      "hindi3"  : "एक बॉयलरप्लेट",
+
+      "option4" : "d)   None of the above",
+      "hindi4"  : "उपरोक्त में से कोई नहीं",
+
+      "answer"  : "b)   A style",
+      "hindiAns"  : "एक शैली",
     },
     {
-      "question": "23.     What is document outline view ?",
+      "question": "What is document outline view ?",
+      "hindiquestion" : "दस्तावेज़ रूपरेखा दृश्य क्या है ?",
+
       "option1" : "a)   A preview in a full screen",
+      "hindi1"  : "एक पूर्ण स्क्रीन में एक पूर्वावलोकन",
+
       "option2" : "b)   A preview with margins",
+      "hindi2"  : "मार्जिन के साथ एक पूर्वावलोकन",
+
       "option3" : "c)   A view with a margins and gutter",
+      "hindi3"  : "मार्जिन और गटर के साथ एक दृश्य",
+
       "option4" : "d)   A view with a structure of heading at various levels",
-      "answer"  : "d)   A view with a structure of heading of various levels"
+      "hindi4"  : "विभिन्न स्तरों पर शीर्ष की संरचना के साथ एक दृश्य",
+
+      "answer"  : "d)   A view with a structure of heading at various levels",
+      "hindiAns"  : "विभिन्न स्तरों पर शीर्ष की संरचना के साथ एक दृश्य",
     },
     {
-      "question": "24.     Ctrl+Z ?",
+      "question": "Ctrl+Z ?",
+      "hindiquestion" : "",
+
       "option1" : "a)   Undo the last action",
+      "hindi1"  : "अंतिम क्रिया को पूर्ववत करें",
+
       "option2" : "b)   Redo the last action",
+      "hindi2"  : "अंतिम क्रिया को फिर से करें",
+
       "option3" : "c)   Add the new page",
+      "hindi3"  : "नया पृष्ठ जोड़ें",
+
       "option4" : "d)   Paste the contents clipboard",
-      "answer"  : "a)   Undo the last action"
+      "hindi4"  : "सामग्री क्लिपबोर्ड चिपकाएँ",
+
+      "answer"  : "a)   Undo the last action",
+      "hindiAns"  : "अंतिम क्रिया को पूर्ववत करें",
     },
     {
-      "question": "25.     The ____ in the resume wizard dialog box indicates the wizard is ready to create the document ?",
+      "question": "The ____ in the resume wizard dialog box indicates the wizard is ready to create the document ?",
+      "hindiquestion" : "रिज्यूमे विज़ार्ड संवाद बॉक्स में _____ इंगित करता है कि विज़ार्ड दस्तावेज़ बनाने के लिए तैयार है",
+
       "option1" : "a)   Start panel",
+      "hindi1"  : "प्रारंभ पैनल",
+
       "option2" : "b)   Address panel",
+      "hindi2"  : "पता पैनल",
+
       "option3" : "c)   Add/Sort Heading panel",
+      "hindi3"  : "शीर्षक पैनल जोड़ें/सॉर्ट करें",
+
       "option4" : "d)   Finish panel",
-      "answer"  : "d)   Finish panel"
-    },
+      "hindi4"  : "समापन पैनल",
+
+      "answer"  : "d)   Finish panel",
+      "hindiAns"  : "समापन पैनल",
+    }
+    /*
     {
       "question": "26.     What does Ctrl + = key effect ?",
       "option1" : "a)   Superscript",
@@ -327,6 +595,7 @@ const msword_quiz =  [
       "option4" : "d)   Open the specified file",
       "answer"  : "c)   Bold the selected text"
     },
+  */
   ];
 
 export default msword_quiz;
