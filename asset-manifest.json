@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/examstudy/static/css/main.6ecbbb72.css",
-    "main.js": "/examstudy/static/js/main.a117d33f.js",
+    "main.css": "/examstudy/static/css/main.daa3a4eb.css",
+    "main.js": "/examstudy/static/js/main.ad72b4f7.js",
     "static/js/787.1ae0027d.chunk.js": "/examstudy/static/js/787.1ae0027d.chunk.js",
     "static/media/books3.jpg": "/examstudy/static/media/books3.11ba3d8e21c1552f48bf.jpg",
     "static/media/books2.jpg": "/examstudy/static/media/books2.6b7bf059d18edf2575f8.jpg",
     "static/media/books4.jpg": "/examstudy/static/media/books4.ccf6fe40008096feed98.jpg",
     "static/media/books1.jpg": "/examstudy/static/media/books1.15996ccf32bbbc15c62b.jpg",
     "static/media/profileAvatar.png": "/examstudy/static/media/profileAvatar.e140540ca0b3fad9de64.png",
+    "static/media/hpgk.jpeg": "/examstudy/static/media/hpgk.0ef1bfc665aef02f7de6.jpeg",
+    "static/media/india_gk.png": "/examstudy/static/media/india_gk.a9006961f8988f80cba1.png",
     "static/media/app_icon.png": "/examstudy/static/media/app_icon.37cd777f392fdd21266c.png",
     "index.html": "/examstudy/index.html",
-    "main.6ecbbb72.css.map": "/examstudy/static/css/main.6ecbbb72.css.map",
-    "main.a117d33f.js.map": "/examstudy/static/js/main.a117d33f.js.map",
+    "main.daa3a4eb.css.map": "/examstudy/static/css/main.daa3a4eb.css.map",
+    "main.ad72b4f7.js.map": "/examstudy/static/js/main.ad72b4f7.js.map",
     "787.1ae0027d.chunk.js.map": "/examstudy/static/js/787.1ae0027d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ecbbb72.css",
-    "static/js/main.a117d33f.js"
+    "static/css/main.daa3a4eb.css",
+    "static/js/main.ad72b4f7.js"
   ]
 }
