@@ -150,15 +150,58 @@
   background-size: cover !important;
   height:30%;
 }
-/*
 .firstgrid{
-  background-color: aqua;
-  width: 100px;
-  height: 100px;
+      margin: 40px 0px !important;
 }
-.secondgrid{
-  background-color: aqua;
-  width: 100px;
-  height: 100px;
+.firstgrid strong{
+  color: black;
 }
-*/
+.firstgrid a{
+  text-decoration: none !important;
+}
+.firstgrid p{
+  color: black;
+}
+.firstgrid img{
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  width: 200px;
+  height: 140px;
+}
+.react-slideshow-fadezoom-wrapper{
+  height:auto !important;
+}
+.footer{
+  background-color: black;
+  color: white;
+  padding:10px 0px;
+}
+.footer p{
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+element.style {
+  opacity: 0;
+  z-index: 0;
+  width: 1349px;
+  left: -1349px;
+  display: block;
+  margin: auto;
+  transform: scale(1);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .firstgrid{
+    margin: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .react-slideshow-fadezoom-wrapper{
+    margin: auto !important;
+  }
+}

@@ -39,9 +39,10 @@ function NavScrollExample() {
               <NavDropdown.Item href="/examstudy/#/msword" className="link">भारत का भूगोल</NavDropdown.Item>
               <NavDropdown.Item href="/examstudy/#/india_gknotes" className="link">भारत की राजनीतिक अर्थव्यवस्था</NavDropdown.Item>
               <NavDropdown.Item href="/#/msword" className="link">भारतीय संविधान</NavDropdown.Item>
+              <NavDropdown.Item href="/examstudy/#/india_knowledge" className="link">अन्य भारत के बारे में</NavDropdown.Item>
               <NavDropdown.Divider />
               <Nav.Link href="/examstudy/#/india_gknotes" style={{fontSize:'14px'}}>
-                अन्य महत्वपूरण तथ्य
+                अन्य महत्वपूरण् तथ्य
                 </Nav.Link>
             </NavDropdown>
 

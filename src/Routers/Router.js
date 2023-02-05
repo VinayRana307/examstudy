@@ -6,8 +6,8 @@ import India_allnotes from "../Components/India_GK/India_allnote";
 import HomePage from "../Components/Home_Page/HomePage";
 import { HashRouter } from 'react-router-dom';
 import Translate from '../Components/Translate_Page/Translate'
+import TableData from '../Components/TablesData/TableData';
 
-import App from '../App'
 export default function Router() {
   return (
     <HashRouter>
@@ -19,6 +19,7 @@ export default function Router() {
             <Route path="/himachal_gk" element={<Himachal_GK />} />
             <Route path="/india_gk" element={<India_GK />} />
             <Route path="/india_gknotes" element={<India_allnotes />} />
+            <Route path="/india_knowledge" element={<TableData />} />
       </Routes>
       </HashRouter>
   );
