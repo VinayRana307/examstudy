@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
@@ -17,6 +18,9 @@ class AppNav extends Component{
                         <SearchOutlinedIcon className='icon'/>
                     </div>
                     <div className='items'>
+                    <div className='item'>
+                            <Link to="/examstudy/#/home">Home</Link>
+                        </div>
                         <div className='item'>
                             <LanguageOutlinedIcon className='icon'/>
                         </div>

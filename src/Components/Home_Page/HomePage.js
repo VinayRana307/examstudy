@@ -7,6 +7,7 @@ class HomePage extends Component{
     render(){
         return(
             <div className="homepage">
+                fdsaf
                 <NavScrollExample/>
                 <SliderImages />
                 <Section_App />
