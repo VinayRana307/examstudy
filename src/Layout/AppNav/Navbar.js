@@ -19,7 +19,7 @@ class AppNav extends Component{
                     </div>
                     <div className='items'>
                     <div className='item'>
-                            <Link to="/examstudy/#/home">Home</Link>
+                            <Link to="/home">Home</Link>
                         </div>
                         <div className='item'>
                             <LanguageOutlinedIcon className='icon'/>

@@ -73,7 +73,7 @@ function NavScrollExample() {
 
             
             <Nav.Link href="/examstudy/#/dashboard" onClick={() => setValue(false)} className="homelink" style={{color:'white'}}>
-              login
+              Dashboard
             </Nav.Link>
           </Nav>
           <Form className="d-flex">
