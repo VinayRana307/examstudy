@@ -7,6 +7,9 @@ import HomePage from "../Components/Home_Page/HomePage";
 import { HashRouter } from 'react-router-dom';
 import Translate from '../Components/Translate_Page/Translate'
 import TableData from '../Components/TablesData/TableData';
+import AllUserData from '../Components/All_Users/All_Users'
+import Elements from '../Pages/AppMain/Main'
+
 
 export default function Router() {
   return (
@@ -20,6 +23,7 @@ export default function Router() {
             <Route path="/india_gk" element={<India_GK />} />
             <Route path="/india_gknotes" element={<India_allnotes />} />
             <Route path="/india_knowledge" element={<TableData />} />
+            <Route path="/dashboard" element={<Elements />} />
       </Routes>
       </HashRouter>
   );

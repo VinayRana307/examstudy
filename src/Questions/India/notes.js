@@ -26,6 +26,9 @@ const India_notes = [
     {
         text : 'सामवेद को भारतीय संगीत का जनक कहा जाता है |',
     },
+    {
+        text : '|',
+    },
 ]
 
 export default India_notes;

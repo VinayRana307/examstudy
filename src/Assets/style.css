@@ -192,7 +192,273 @@ element.style {
   margin: auto;
   transform: scale(1);
 }
+.appsidebar{
+  flex:1;
+  border-right:0.5px solid rgb(230, 227, 227);
+  min-height: 100vh;
+  background-color: white;
+}
+.app_main{
+  display: flex;
+}
+.app_main_containner{
+  flex:6;
+}
+.appsidebar .top{
+  height: 50px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.appsidebar .center{
+  padding-left: 10px;
+}
+.appsidebar .center ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+.appsidebar .title{
+  font-weight: bold;
+  font-size:10px;
+  color:#999;
+  margin-top:15px;
+  margin-bottom:5px;
 
+}
+.appsidebar li{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor:pointer;
+}
+.appsidebar li:hover{
+  background-color: #ece8ff;
+}
+.appsidebar .icon{
+  font-size: 18px;
+  color:#7451f8;
+}
+.appsidebar span{
+  font-size: 13px;
+  font-weight: 600;
+  color:#888;
+  margin-left:10px;
+}
+.appsidebar .logo{
+  font-size: 20px;
+  font-weight:bold;
+  color:#6439FF;
+}
+.appsidebar hr{
+  height:0;
+  border:0.5px solid rgb(230, 227, 227);
+
+}
+.appsidebar .bottom{
+  display:flex;
+  align-items: center;
+  margin:10px;
+
+}
+.appsidebar .colorOption{
+  width:20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #7451f8;
+  cursor:pointer;
+  margin-left: 10px;
+}
+.appsidebar .colorOption:nth-child(1){
+  background-color: whitesmoke;
+}
+.appsidebar .colorOption:nth-child(2){
+  background-color: #333;
+}
+.appsidebar .colorOption:nth-child(3){
+  background-color: darkblue;
+}
+.app_navbar{
+  height: 5opx;
+  border-bottom: 0.5px solid rgb(231, 228, 228);
+  display:flex;
+  align-items: center;
+  color:#555;
+}
+.app_navbar .wrapper{
+  display:flex;
+  width:100%;
+  padding:16px;
+  justify-content: space-between;
+}
+.app_navbar .search{
+  display:flex;
+  align-items:center;
+  border:0.5px solid lightgray;
+  padding: 3px;
+}
+.app_navbar input{
+  border:none;
+  outline: none;
+  background-color: transparent;
+}
+.app_navbar input ::placeholder{
+  font-size: 12px;
+}
+.app_navbar .items{
+  display:flex;
+  align-items:center;
+}
+.app_navbar .items .item{
+  display: flex;
+  align-items:center;
+  margin-right:20px;
+  position: relative;
+  cursor: pointer;
+}
+.app_navbar .items .item .avatar{
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+}
+.app_navbar .items .counter{
+  width:15px;
+  height:15px;
+  background-color: red;
+  border-radius: 50%;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  position: absolute;
+  top:-5px;
+  right:-5px;
+
+}
+.app_main .app_main_containner .widgets{
+  display: flex;
+  padding: 20px;
+  gap:20px;
+}
+.widget{
+  display: flex;
+  flex:1;
+  justify-content: space-between;
+  padding:10px;
+  -webkit-box-shadow : 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 10px;
+  height:100px;
+}
+.widget .left, .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.widget .title{
+  font-weight: bold;
+  font-size: 14px;
+  color:rgb(160, 160, 160);
+}
+.widget .counter{
+  font-size:28px;
+  font-weight:300;
+}
+.widget .widget_link{
+  width: max-content;
+  font-size: 12px;
+  border-bottom:1px solid gray;
+}
+.widget .percentage{
+  display:flex;
+  align-items: center;
+  font-size:14px;
+}
+.widget .percentage .positive{
+  color:green;
+}
+.widget .percentage .negative{
+  color:red;
+}
+.widget .percentage .icon{
+  font-size: 18px;
+  padding:5px;
+  border-radius:5px;
+  align-self: flex-end;
+}
+.app_main .charts{
+  display:flex;
+  padding:20px;
+  gap:20px;
+  padding:5px 20px;
+}
+.featured{
+  flex:2;
+  -webkit-box-shadow : 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding:10px;
+}
+.chart{
+  flex:5
+}
+.featured .top{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  color:gray;
+}
+.featured .title{
+  font-size: 16px;
+  font-weight: 500;
+}
+.featured .bottom{
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:15px;
+}
+.featuredChart{
+  width:100px;
+  height:100px;
+}
+.featured .bottom .amount{
+  font-size: 30px;
+}
+.featured .bottom .desc{
+  font-weight: 300;
+  font-size:12px;
+  color:gray;
+  text-align:center;
+}
+.featured .bottom .summary{
+  display: flex;
+  width:100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.featured .bottom .item{
+  text-align: center;
+}
+.featured .bottom .itemTitle{
+font-size: 14px;
+color:gray;
+}
+.featured .bottom .itemResult{
+  display:flex;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.featured .bottom .itemResult .positive{
+  color:green;
+}
+.featured .bottom .itemResult .negative{
+  color:red;
+}
 
 @media only screen and (max-width: 600px) {
   .firstgrid{

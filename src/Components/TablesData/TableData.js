@@ -31,6 +31,9 @@ export default class TableData extends Component{
                     </tr>
                     )}
                     </tbody>
+                    <tfoot>
+                        
+                    </tfoot>
                 </Table>
             </div>
         )

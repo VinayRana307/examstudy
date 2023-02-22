@@ -72,8 +72,8 @@ function NavScrollExample() {
             
 
             
-            <Nav.Link href="#" onClick={() => setValue(false)} className="homelink" style={{color:'white'}}>
-              {value?'logout': window.location.reload()} 
+            <Nav.Link href="/#/dashboard" onClick={() => setValue(false)} className="homelink" style={{color:'white'}}>
+              login
             </Nav.Link>
           </Nav>
           <Form className="d-flex">
