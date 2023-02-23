@@ -9,8 +9,7 @@ import Translate from '../Components/Translate_Page/Translate'
 import TableData from '../Components/TablesData/TableData';
 import AllUserData from '../Components/All_Users/All_Users'
 import Elements from '../Pages/AppMain/Main'
-
-
+import ChatApp from "../Pages/Elements/ChatUser/Chat";
 export default function Router() {
   return (
     <HashRouter>
@@ -24,6 +23,7 @@ export default function Router() {
             <Route path="/india_gknotes" element={<India_allnotes />} />
             <Route path="/india_knowledge" element={<TableData />} />
             <Route path="/dashboard" element={<Elements />} />
+            <Route path="/chat" element={<ChatApp />} />
       </Routes>
       </HashRouter>
   );

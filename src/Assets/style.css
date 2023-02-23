@@ -459,7 +459,56 @@ color:gray;
 .featured .bottom .itemResult .negative{
   color:red;
 }
+.chatApp .Chat_box{
+  display:flex;
+  background-color: skyblue;
+  color:black;
+  -webkit-box-shadow : 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47); 
+  font-size:20px;
+  padding:10px;
+  border-radius: 4px;
 
+}
+.chatApp .container-fluid{
+  display:flex;
+}
+.chatApp .container-fluid.user_text_side{
+  flex-direction: row-reverse;
+}
+.chatApp .container-fluid.container-fluid.user_text_side .Chat_box{
+  background-color: skyblue;
+}
+.chatApp .container-fluid .chatAvatar{
+  width:50px;
+  margin:0px 10px 10px 10px;
+  height:50px;
+  border-radius: 50%;
+}
+.chatApp .container-fluid .Chat_box{
+  background-color: lightcoral;
+}
+.Chat_message_input{
+ display: flex;
+  position: fixed;
+  width: 100%;
+  bottom:0;
+}
+.chatApp .Chat_message_input input{
+  width:90%;
+  padding:10px;
+  border:0.5px solid;
+}
+.chatApp .Chat_message_input button{
+  width:10%;
+  padding:10px;
+
+}
+.chatApp .Chat_container{
+  height:100%;
+  overflow-y: scroll;
+  border:1px solid black;
+}
 @media only screen and (max-width: 600px) {
   .firstgrid{
     margin: 0px !important;
