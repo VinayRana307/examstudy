@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/examstudy/static/css/main.ca2be6e8.css",
-    "main.js": "/examstudy/static/js/main.3914fef0.js",
+    "main.css": "/examstudy/static/css/main.9e0cad0a.css",
+    "main.js": "/examstudy/static/js/main.18bab63b.js",
     "static/js/787.1ae0027d.chunk.js": "/examstudy/static/js/787.1ae0027d.chunk.js",
     "static/media/books3.jpg": "/examstudy/static/media/books3.11ba3d8e21c1552f48bf.jpg",
     "static/media/books2.jpg": "/examstudy/static/media/books2.6b7bf059d18edf2575f8.jpg",
@@ -13,12 +13,12 @@
     "static/media/admin_user.jpg": "/examstudy/static/media/admin_user.5d5b6a5dd26ee02be71a.jpg",
     "static/media/app_icon.png": "/examstudy/static/media/app_icon.37cd777f392fdd21266c.png",
     "index.html": "/examstudy/index.html",
-    "main.ca2be6e8.css.map": "/examstudy/static/css/main.ca2be6e8.css.map",
-    "main.3914fef0.js.map": "/examstudy/static/js/main.3914fef0.js.map",
+    "main.9e0cad0a.css.map": "/examstudy/static/css/main.9e0cad0a.css.map",
+    "main.18bab63b.js.map": "/examstudy/static/js/main.18bab63b.js.map",
     "787.1ae0027d.chunk.js.map": "/examstudy/static/js/787.1ae0027d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca2be6e8.css",
-    "static/js/main.3914fef0.js"
+    "static/css/main.9e0cad0a.css",
+    "static/js/main.18bab63b.js"
   ]
 }
