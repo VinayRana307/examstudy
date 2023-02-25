@@ -16,7 +16,7 @@ handlesumbit = (e) =>{
   e.preventDefault();
   let {username , password} = this.state;
   
-  if(username == 'amit' && password == '1234'){
+  if(username == 'user' && password == '1234'){
       alert('success')
       this.setState({value:false})
   }
@@ -41,7 +41,7 @@ handlesumbit = (e) =>{
               </tr>
               <tr>
                 <td>Password :</td>
-                <td><input type="text" value={this.state.password} name="password" onChange={(e)=>this.setState({password:e.target.value})}/></td>
+                <td><input type="password" value={this.state.password} name="password" onChange={(e)=>this.setState({password:e.target.value})}/></td>
               </tr>
               <tr>
                 <td><button type="submit">Login</button></td>

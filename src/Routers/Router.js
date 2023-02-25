@@ -10,6 +10,8 @@ import TableData from '../Components/TablesData/TableData';
 import AllUserData from '../Components/All_Users/All_Users'
 import Elements from '../Pages/AppMain/Main'
 import ChatApp from "../Pages/Elements/ChatUser/Chat";
+import Login from "../Components/Login/Login";
+
 export default function Router() {
   return (
     <HashRouter>
@@ -24,6 +26,7 @@ export default function Router() {
             <Route path="/india_knowledge" element={<TableData />} />
             <Route path="/dashboard" element={<Elements />} />
             <Route path="/chat" element={<ChatApp />} />
+            <Route path="/login" element={<Login />} />
       </Routes>
       </HashRouter>
   );

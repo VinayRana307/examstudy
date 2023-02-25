@@ -72,8 +72,14 @@ function NavScrollExample() {
             
 
             
-            <Nav.Link href="/examstudy/#/dashboard" onClick={() => setValue(false)} className="homelink" style={{color:'white'}}>
+            <Nav.Link href="/examstudy/#/dashboard" onClick={() => setValue(true)} className="homelink" style={{color:'white'}}>
               Dashboard
+            </Nav.Link>
+            <Nav.Link href="/examstudy/#/chat" onClick={() => setValue(true)} className="homelink" style={{color:'white'}}>
+              Chat
+            </Nav.Link>
+            <Nav.Link href="/examstudy/#/login" onClick={() => setValue(true)} className="homelink" style={{color:'white'}}>
+              Login
             </Nav.Link>
           </Nav>
           <Form className="d-flex">

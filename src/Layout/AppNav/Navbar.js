@@ -35,7 +35,7 @@ class AppNav extends Component{
                             <div className='counter'>1</div>
                         </div>
                         <div className='item'>
-                            <ChatBubbleOutlineOutlinedIcon className='icon'/>
+                            <Link to="/chat"><ChatBubbleOutlineOutlinedIcon className='icon'/></Link>
                             <div className='counter'>2</div>
                         </div>
                         <div className='item'>

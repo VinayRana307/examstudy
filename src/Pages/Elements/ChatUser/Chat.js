@@ -42,15 +42,6 @@ function ChatApp(){
                         <strong>{data.name} : </strong>
                         <span>{data.message}</span>
                     </p>
-                    <div className="icon">
-                        <img 
-                        src={admin_user}
-                        alt=""
-                        className="chatAvatar"
-                        />
-                    </div>
-                    
-                    <span>{data.time}</span>
                 </div>
                 ))}
                 <div className="Chat_message_input">
