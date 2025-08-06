@@ -16,7 +16,7 @@ handlesumbit = (e) =>{
   e.preventDefault();
   let {username , password} = this.state;
   
-  if(username == 'Rana' && password == 'Rana321'){
+  if(username == 'Rana' && password == 'Rana'){
       alert('success')
       this.setState({value:false})
   }
