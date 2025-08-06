@@ -18,7 +18,7 @@ handlesumbit = (e) =>{
   
   if(username == 'Rana' && password == 'Rana'){
       alert('success')
-      this.setState({value:false})
+      //this.setState({value:false})
   }
   else{
     alert('User not found')
