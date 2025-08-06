@@ -22,6 +22,7 @@ handlesumbit = (e) =>{
   }
   else{
     alert('User not found')
+    this.setState({value:false})
   }
 }
   render(){ 
